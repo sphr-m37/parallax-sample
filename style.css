@@ -1,0 +1,47 @@
+ body {
+     height: 300vh;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .box {
+     background: url(images/gucken-polaris.jpg);
+     position: relative;
+     width: 100%;
+     height: 100vh;
+ }
+
+ #demo {
+     color: white;
+     position: fixed;
+     top: 0;
+     left: 0;
+     background-color: #333;
+ }
+
+ .big {
+     position: absolute;
+     top: 400px;
+     left: 50px;
+ }
+
+ .small {
+     position: absolute;
+     top: 600px;
+     right: 50px;
+ }
+
+ .text {
+     padding: 300px 0;
+     background-color: #333;
+ }
+
+ .text h2 {
+     opacity: 0;
+     position: relative;
+     color: white;
+ }
